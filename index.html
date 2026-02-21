@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en_US" data-theme-mode="light" data-light-theme="daylight" data-dark-theme="midnight">
+<head>
+    <base href="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" id="baseStyle" href="stage/build/export/base.css?v=3.5.5"/>
+    <link rel="stylesheet" type="text/css" id="themeDefaultStyle" href="appearance/themes/daylight/theme.css?v=3.5.5"/>
+    <script src="stage/protyle/js/protyle-html.js?v=3.5.5"></script>
+    
+    <title>Practice Questions</title>
+    <!-- Exported by SiYuan v3.5.5 -->
+    <style>
+        body {font-family: var(--b3-font-family);background-color: var(--b3-theme-background);color: var(--b3-theme-on-background)}
+        @font-face {
+  font-family: "Emojis Additional";
+  src: url(appearance/fonts/Noto-COLRv1-2.047/Noto-COLRv1.woff2) format("woff2");
+  unicode-range: U+1fae9, U+1fac6, U+1fabe, U+1fadc, U+e50a, U+1fa89, U+1fadf, U+1f1e6-1f1ff, U+1fa8f;
+}
+@font-face {
+  font-family: "Emojis Reset";
+  src: local("Apple Color Emoji"),
+  local("Segoe UI Emoji"),
+  local("Segoe UI Symbol");
+  unicode-range: U+21a9, U+21aa, U+2122, U+2194-2199, U+23cf, U+25b6, U+25c0, U+25fb, U+25fc, U+25aa, U+25ab, U+2600-2603,
+  U+260e, U+2611, U+261d, U+2639, U+263a, U+2640, U+2642, U+2660, U+2663, U+2665, U+2666, U+2668, U+267b, U+26aa, U+26ab, 
+  U+2702, U+2708, U+2934, U+2935, U+1f170, U+1f171, U+1f17e, U+1f17f, U+1f202, U+1f21a, U+1f22f, U+1f232-1f23a, U+1f250, 
+  U+1f251, U+1fae4, U+2049, U+203c, U+3030, U+303d, U+24c2, U+26a0, U+26a1, U+26be, U+27a1, U+2b05-2b07, U+3297, U+3299, U+a9, U+ae;
+  size-adjust: 115%;
+}
+@font-face {
+  font-family: "Emojis";
+  src: local("Apple Color Emoji"),
+  local("Segoe UI Emoji"),
+  local("Segoe UI Symbol");
+  size-adjust: 115%;
+}
+:root { --b3-font-size-editor: 16px }
+.b3-typography code:not(.hljs), .protyle-wysiwyg span[data-type~=code] { font-variant-ligatures: none }
+        
+        
+    </style>
+    <style id="snippetCSS20251011170014-xm2be7r">/* Custom Snippet to change document title and heading colors */
+
+/* Target the Document Title */
+/* The document title is typically represented by the H1 element in the b3-typography scope */
+.b3-typography h1.h1,
+.protyle-title .protyle-title__input {
+    /* Document Title Color: #5B0F00 */
+    color: #5B0F00 !important;
+}
+
+/* Target all other Headings (H2 through H6) */
+.b3-typography h2, 
+.b3-typography h3, 
+.b3-typography h4, 
+.b3-typography h5, 
+.b3-typography h6 {
+    /* All Other Headings Color: #980000 */
+    color: #980000 !important;
+}</style>
+</head>
+<body>
+<div class="b3-typography" 
+style="max-width: 800px;margin: 0 auto;" id="preview"><h1 id="Practice-Questions" updated="20260221020629" title="Practice Questions">Practice Questions</h1>
+<h1 id="20260221014055-35vt3zk" updated="20260221020629">Question 0: Warming up Froot Loops</h1>
+<p id="20260221014105-ud1fei7" updated="20260221014119">Write an LC-3 program that adds up the numbers from 1 to 10 (i.e., computes 1+2+3+4+5) and stores the result in R3.</p>
+<p id="20260221014126-fsexbvu" updated="20260221014131">a) Write C code</p>
+<p id="20260221014132-sskt0dm" updated="20260221014140">b) Write LC3 code</p>
+<p id="20260221014141-89m7laz" updated="20260221014446">c) Draw a circuit for adding three 3bit unsigned numbers eg-<span data-type="code">1+2+3</span>. For simple and clean looking circuit lets use 3bit unsigned representation for those numbers.</p>
+<h1 id="20260221012712-39dkq8g" updated="20260221012744">Question 1: Coding and Circuit Design</h1>
+<p id="20260221012712-71znfrj" updated="20260221011239">You are given an unsigned integer <span data-type="code">n</span>. Return the number of <span data-type="code">1</span> bits in its binary representation. You may assume <span data-type="code">n</span> is a non-negative integer which fits within 16-bit.</p>
+<p id="20260221012712-f1yemh8" updated="20260221011603">eg- input:<span data-type="code">0000000000010101</span> gives output 3</p>
+<p updated="20260221011628" id="20260221012712-d4rymvb">eg- input <span data-type="code">0000000000000000</span> gives output 0</p>
+<p id="20260221012712-fliv6qb" updated="20260221011255">a) Write C code?</p>
+<p id="20260221012712-bkubj0g" updated="20260221011644">b) Write that code in LC3? Feel free to hardcode the inputs into a label</p>
+<p id="20260221012712-9boqpsb" updated="20260221011423">c) Draw a circuit for that problem. Feel free to hardwire the input and output lines. (Hint: think about how would u use an adder)</p>
+<p id="20260221013033-ruaso2l" updated="20260221013119">d) What would be faster to run (LC3, circuit or C code) and explain why?</p>
+<hr />
+<h1 id="20260221012712-yaixne1" updated="20260221013217">Question 2: Coding and Circuit Design</h1>
+<p id="20260221012712-kwz3ezr" updated="20260221012213">You are given an unsigned 5 bit integer <span data-type="code">n</span>. Pop and discard all the bits at even positions</p>
+<p updated="20260221012134" id="20260221012712-8zw5d9u">eg- input <span data-type="code">01110</span> will ouput <span data-type="code">00010</span></p>
+<p id="20260221012712-fxtzctu" updated="20260221012204">eg- input <span data-type="code">11111</span> will output <span data-type="code">00111</span></p>
+<p id="20260221012712-aszxu1o" updated="20260221012245">eg- input <span data-type="code">00000</span> will output <span data-type="code">00000</span></p>
+<p id="20260221012712-fzkija8" updated="20260221012409">eg- input <span data-type="code">10100</span> will output <span data-type="code">00110</span></p>
+<p id="20260221012712-yebn5q8" updated="20260221012436">a) Write LC3 code that does that?</p>
+<p id="20260221012712-gj4nomr" updated="20260221012511">b) Draw a circuit for that problem. Feel free to hardwire the input and output lines. (Hint: dont overthink)</p>
+<p id="20260221013124-2c7r0ky" updated="20260221013137">d) What would be faster to run (LC3, circuit) and explain why?</p>
+<hr />
+<h2 id="20260221005059-b4t3y8p" updated="20260221013217">Question 3: Floating-Point Precision</h2>
+<p id="20260221005059-4ctz89h" updated="20260221005059">A developer is designing a system for a high-altitude drone. The altitude is stored as a <span data-type="strong">16-bit</span> value.</p>
+<ul start="0" id="20260221005059-dwzivrl" updated="20260221013217">
+<li id="20260221005059-6hnu0e7" updated="20260221005059">
+<p id="20260221005059-04kj42l" updated="20260221005059"><span data-type="strong">Format A:</span> A 16-bit Two’s Complement integer (representing meters).</p>
+</li>
+<li id="20260221005059-jauc1bg" updated="20260221013217">
+<p id="20260221005059-xifg52i" updated="20260221013217"><span data-type="strong">Format B:</span> A 16-bit &quot;Mini-Float&quot; using the IEEE 754 standard <span data-type="em">(1 sign bit, 5 exponent bits with a bias of 15, and 10 fraction bits).</span></p>
+</li>
+</ul>
+<p id="20260221005059-erir49x" updated="20260221005315"><span data-type="strong">a)</span> The drone reaches an altitude of <span data-type="strong">32,968 meters</span>. Explain why <span data-type="strong">Format A</span> fails to represent this number.</p>
+<p id="20260221005059-hgvfs1j" updated="20260221005123"><span data-type="strong">b)</span> If the drone is at an altitude of exactly <span data-type="strong">1.5 meters</span>, show the bit representation for <span data-type="strong">Format B</span></p>
+<p id="20260221005059-6l95m22" updated="20260221005341"><span data-type="strong">c)</span> The developer needs to perform a bitwise <span data-type="code">AND</span> operation between the altitude and a mask. Which format allows for a predictable result using standard C bitwise operators? Justify your answer.</p>
+<hr />
+<h2 id="20260221005059-stgl1dn" updated="20260221012755">Question 4: Symbol Tables</h2>
+<p id="20260221005059-76afue4" updated="20260221005423">Consider the following LC-3 Assembly code snippet starting at memory address</p>
+<pre class="code-block" data-language="asm" id="20260221005059-7g05z8n" updated="20260221005412"><code class="hljs">		.ORIG x3000
+        LD R1, VALUE
+LOOP    BRz DONE
+        ADD R1, R1, #-1
+        STR R1, R2, #0
+        ADD R2, R2, #1
+        BRnzp LOOP
+DONE    HALT
+VALUE   .FILL x0005
+        .END
+</code></pre>
+<p id="20260221005059-xo4r8mk" updated="20260221005434"><span data-type="strong">a)</span> Construct the <span data-type="strong">Symbol Table</span> including the Label and its corresponding Hex address.</p>
+<p id="20260221005059-c2uc9wn" updated="20260221005459"><span data-type="strong">b)</span> When the assembler encounters the instruction <span data-type="code">BRnzp LOOP</span>. How would it translate this specific instruction into its <span data-type="strong">16-bit binary machine code</span>.</p>
+<hr />
+<h2 id="20260221005059-tsgdp91" updated="20260221013600">Question 5: Memory and Circuits</h2>
+<p id="20260221005059-5c64pk3" updated="20260221005059">You are building a small memory unit that contains ​<span data-type="strong">8 words</span>​, where each word is <span data-type="strong">4 bits</span> wide.</p>
+<p id="20260221005059-eoiaudz" updated="20260221013500"><span data-type="strong">a)</span> To select exactly one of these 8 words based on an address, what specific circuit must you use, and how many &quot;Address Bits&quot; are required for the input (for controlling what to output)?</p>
+<p id="20260221005059-gw8lib7" updated="20260221005619"><span data-type="strong">b)</span> You decide to implement a &quot;Write Enable&quot; feature using a <span data-type="strong">Gated D-Latch</span>. Explain why a raw S-R Latch is insufficient for a memory word that needs to hold its value while other words are being updated. </p>
+<p id="20260221005059-cmeibgb" updated="20260221013600"><span data-type="strong">c)</span> Describe the &quot;Word Read&quot; process: How does our circuit ensure that only the bits from the <span data-type="em">selected</span> address appear on the output and not bits from the other 7 words? (<span data-type="em">Simply describe the circuit name and how its used in few lines)</span></p>
+<hr />
+<h2 id="20260221005059-4npo4ge" updated="20260221013012">Question 6: C Structs, Pointers, and Memory Mapping</h2>
+<p id="20260221005059-3ywk7bv" updated="20260221005852">You are given the following C code</p>
+<pre class="code-block" data-language="C" id="20260221005059-7h8ssy6" updated="20260221005855"><code class="hljs">struct Node {
+    int data;
+    struct Node* next;
+};
+
+void main() {
+    struct Node a;
+    struct Node b;
+    a.data = 5;
+    a.next = &amp;b;
+}
+</code></pre>
+<p id="20260221005059-tj3taop" updated="20260221010011"><span data-type="strong">a)</span> In memory, <span data-type="code">struct Node a</span> starts at address <span data-type="strong">x4000</span>. If an integer and a pointer both take (16 bits), what are the exact memory addresses for <span data-type="code">a.data</span> and <span data-type="code">a.next</span>?</p>
+<p id="20260221005059-ja7s7ev" updated="20260221010008"><span data-type="strong">b)</span> Write the <span data-type="strong">LC-3 Assembly equivalent</span> for the C statement <span data-type="code">a.next = &amp;b;</span>. Assume the address of <span data-type="code">b</span> is stored in <span data-type="strong">R0</span> and the base address of <span data-type="code">a</span> is in <span data-type="strong">R1</span>.</p>
+<hr />
+<h2 id="20260221010318-95gyq3x" updated="20260221014001">Question 7 LC-3 Programming</h2>
+<p id="20260221010318-otukepx" updated="20260221010350">The LC-3 memory starting at address <span data-type="code">x4000</span> contains an array of 8 signed integers (16-bit 2's complement). The array is terminated by a value <span data-type="code">x0000</span>.</p>
+<p id="20260221010318-pld0sah" updated="20260221010318"><span data-type="strong">(a)</span> Write an LC-3 assembly program that:</p>
+<ul start="0" id="20260221010318-sr7byhm" updated="20260221012948">
+<li id="20260221010318-6helx2y" updated="20260221010358">
+<p id="20260221010318-b2gcvn9" updated="20260221010358">Starts at <span data-type="code">x3010</span></p>
+</li>
+<li id="20260221010318-cupz6oj" updated="20260221010318">
+<p id="20260221010318-m7ykx1w" updated="20260221010318">Traverses the array starting at <span data-type="code">x4000</span></p>
+</li>
+<li id="20260221010318-6ed127k" updated="20260221012948">
+<p id="20260221010318-sp0vs9f" updated="20260221012948">Counts how many values are <span data-type="strong">strictly negative</span> (i.e., MSB = 1, value <span data-type="inline-math" data-subtype="math" data-content="\neq" contenteditable="false" class="render-node"></span> 0)</p>
+</li>
+<li id="20260221010318-yje8925" updated="20260221010318">
+<p id="20260221010318-bxeyc38" updated="20260221010318">Stores the final count in register R5</p>
+</li>
+<li id="20260221010318-wd9mxhq" updated="20260221012932">
+<p id="20260221010318-s3a6m2g" updated="20260221012932">Halts</p>
+</li>
+</ul>
+<p id="20260221010318-0dwq7tr" updated="20260221010418">You may use R0–R5 freely. Mak sure to clearly label all instructions.</p>
+<p id="20260221010318-n09ekh0" updated="20260221010422"><span data-type="strong">(b)</span> Identify and explain the role of <span data-type="strong">each addressing mode</span> your solution uses. If your solution does not use at least two distinct modes, rewrite the relevant portion so it does.</p>
+<p id="20260221010318-tm9rnfm" updated="20260221010438"><span data-type="strong">(c)</span> Rewrite <span data-type="strong">only</span> the loop termination condition check in C (just the <span data-type="code">if</span>/<span data-type="code">while</span> expression, not the full program) that is logically equivalent to your LC-3 sentinel check.</p>
+<hr />
+<h2 id="20260221014001-53pfuuk" updated="20260221014004">Question 8: LC3 Reading and Writing to Memory</h2>
+<p id="20260221014001-12n3c2f" updated="20260221013819">An LC-3 program stores a student's score at memory address <span data-type="code">x4000</span>.</p>
+<p updated="20260221013819" id="20260221014001-g3hlox6"><span data-type="strong">(a)</span> Write LC-3 instructions to:</p>
+<ul start="0" id="20260221014001-zab7wa0" updated="20260221013819">
+<li updated="20260221013819" id="20260221014001-lt6s6js">
+<p id="20260221014001-qhg16nb" updated="20260221013819">Load the value at <span data-type="code">x4000</span> into R0</p>
+</li>
+<li id="20260221014001-8hotvmr" updated="20260221013819">
+<p id="20260221014001-xvgy5k4" updated="20260221013927">Add 10 to it</p>
+</li>
+<li id="20260221014001-2rxog8s" updated="20260221013819">
+<p id="20260221014001-40wp092" updated="20260221013819">Store the result back to <span data-type="code">x4000</span></p>
+</li>
+</ul>
+<p id="20260221014001-hq8r5tv" updated="20260221013943"><span data-type="strong">(b)</span> The value stored at <span data-type="code">x4000</span> is <span data-type="code">x001E</span> (in hex). What is this in decimal? After adding 10, what is the new value in both decimal and hex?</p>
+<p id="20260221014001-sttuvug" updated="20260221013948"><span data-type="strong">(c)</span> A student uses <span data-type="code">LD R0, R0, #0</span> to load from memory. What is wrong with this instruction? What should they use instead?</p>
+<hr />
+<h2 id="20260221014004-u5epx0a" updated="20260221020600">Question 9: LD, LDR, LEA, LDI: What's the Difference?</h2>
+<p id="20260221015033-jewrkok" updated="20260221015107">Here is a snapshot of LC-3 simulator memory:</p>
+<pre class="code-block" data-language="" id="20260221015033-cigp4lu" updated="20260221015854"><code class="hljs">Address   Value/instruction
+x3050     LABE_AT_x3050 .fill x4100      			;a pointer (stores an address)
+;some fishy but useless code goes here
+x3000.    LD R1, LABE_AT_x4100
+;some sharky but useless code on here
+x4100     LABE_AT_x4100 .fill x0009      			;the actual value we want
+</code></pre>
+<p id="20260221015033-e6v87q2" updated="20260221015033">Your program starts at <span data-type="code">x3000</span>.</p>
+<p id="20260221015033-a8ctvu1" updated="20260221015520">(a) Whats wrong in above code (apart from syntax errors). (Hint something's wrong with LD)</p>
+<p id="20260221015033-0px7y3g" updated="20260221015929">(b) How can we fix the above issue using different instruction (Hint think about other label)</p>
+<p id="20260221015033-mx075x9" updated="20260221015945">(c) Match each C snippet to the LC-3 instruction that best describes what it does (<span data-type="code">LD</span>, <span data-type="code">LDR</span>, <span data-type="code">LEA</span>, <span data-type="code">LDI</span>). Give one reason for each.</p>
+<pre class="code-block" data-language="c" id="20260221015033-hjj6m8q" updated="20260221015033"><code class="hljs">// Snippet 1
+int x = score;          // score is a nearby variable
+</code></pre>
+<pre class="code-block" data-language="c" id="20260221015033-4hp2vst" updated="20260221015033"><code class="hljs">// Snippet 2
+int *p = &amp;score;        // get the address of score, not its value
+</code></pre>
+<pre class="code-block" data-language="c" id="20260221015033-55v408k" updated="20260221015033"><code class="hljs">// Snippet 3
+int x = array[i];       // i is already sitting in a register
+</code></pre>
+<pre class="code-block" data-language="c" id="20260221015033-syeyjul" updated="20260221015033"><code class="hljs">// Snippet 4
+int x = *ptr;           // ptr is stored in memory, not in a register
+</code></pre>
+<hr />
+<h3 id="20260221015033-e8dwwdd" updated="20260221020521">Part (d)</h3>
+<p id="20260221015033-8t6g6y1" updated="20260221020321"><a href="https://en.wikipedia.org/wiki/Robert_(film)" data-type="a">Robert from Robert movie</a> says: <span data-type="em">"Why do we have four load instructions? Isn't one enough?"</span></p>
+<p id="20260221015033-9khmd7v" updated="20260221020438">In few sentences, explain why we need all four. Your answer must talk about following (or else <a href="https://en.wikipedia.org/wiki/Robert_(film)" data-type="a">Robert</a> would get angry)</p>
+<ul start="0" id="20260221015033-e4gm5cz" updated="20260221015033">
+<li id="20260221015033-x95534w" updated="20260221015033">
+<p id="20260221015033-79kbbop" updated="20260221015033">Why <span data-type="code">LD</span> alone is not enough</p>
+</li>
+<li updated="20260221015033" id="20260221015033-fvw8z59">
+<p id="20260221015033-anm7gql" updated="20260221015033">What problem <span data-type="code">LDI</span> solves</p>
+</li>
+<li updated="20260221015033" id="20260221015033-zilfbhf">
+<p id="20260221015033-hd6w335" updated="20260221015033">What <span data-type="code">LEA</span> gives you that the others don't</p>
+</li>
+<li id="20260221015033-dsirttf" updated="20260221015033">
+<p id="20260221015033-6g0ckls" updated="20260221015033">Why <span data-type="code">LDR</span> is needed for arrays and linked lists</p>
+</li>
+</ul>
+</div>
+<script src="appearance/icons/material/icon.js?v=3.5.5"></script>
+<script src="stage/build/export/protyle-method.js?v=3.5.5"></script>
+<script src="stage/protyle/js/lute/lute.min.js?v=3.5.5"></script>  
+<script>
+    
+    window.siyuan = {
+      config: {
+        appearance: { mode: 0, codeBlockThemeDark: "base16/dracula", codeBlockThemeLight: "github" },
+        editor: { 
+          codeLineWrap: true,
+          fontSize: 16,
+          codeLigatures: false,
+          plantUMLServePath: "https://www.plantuml.com/plantuml/svg/~1",
+          codeSyntaxHighlightLineNum: false,
+          katexMacros: decodeURI(`%7B%7D`),
+        }
+      },
+      languages: {copy:"Copy"}
+    };
+    const previewElement = document.getElementById('preview');
+    Protyle.highlightRender(previewElement, "stage/protyle");
+    Protyle.mathRender(previewElement, "stage/protyle", false);
+    Protyle.mermaidRender(previewElement, "stage/protyle");
+    Protyle.flowchartRender(previewElement, "stage/protyle");
+    Protyle.graphvizRender(previewElement, "stage/protyle");
+    Protyle.chartRender(previewElement, "stage/protyle");
+    Protyle.mindmapRender(previewElement, "stage/protyle");
+    Protyle.abcRender(previewElement, "stage/protyle");
+    Protyle.htmlRender(previewElement);
+    Protyle.plantumlRender(previewElement, "stage/protyle");
+    document.querySelectorAll(".protyle-action__copy").forEach((item) => {
+      item.addEventListener("click", (event) => {
+            navigator.clipboard.writeText(item.parentElement.nextElementSibling.textContent.trimEnd().replace(/ /g, " ").replace(/‍```/g, "```"));
+            event.preventDefault();
+            event.stopPropagation();
+      })
+    });
+</script>
+</body></html>
